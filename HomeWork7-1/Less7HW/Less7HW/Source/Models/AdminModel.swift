@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct AdminModel {
+struct AdminModel:profileData {
     
-    let adminAvatarName: String
-    let adminFirstName: String
-    let adminLastName: String
-    let adminEmail: String
-    let adminAdderss: String
+        var avatarName: String
+        var firstName: String
+        var lastName: String
+        var eMail: String
+        var address: String
 }

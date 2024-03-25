@@ -9,25 +9,26 @@ import Foundation
 
 class DataProviderService {
     
-    func loadUserData() {
-        
-        let user = UserModel(
-            userAvatarName: "userAvatar",
-            userFirstName: "John",
-            userLastName: "Smith",
-            userEmail: "john.smith@gmail.com",
-            userAdderss: "Green Bay, 1442 Sycamore Lake Road"
-        )
-    }
+    func loadUserData(completion: (UserModel) -> Void) {
+            let user = UserModel(
+                avatarName: "userAvatar",
+                firstName: "John",
+                lastName: "Smith",
+                eMail: "john.smith@gmail.com",
+                address: "Green Bay, 1442 Sycamore Lake Road"
+            )
+            completion(user)
+        }
     
-    func loadAdminData() {
-        
-        let admin = AdminModel(
-            adminAvatarName: "adminAvatar",
-            adminFirstName: "Bob",
-            adminLastName: "Lester",
-            adminEmail: "bob.lester@gmail.com",
-            adminAdderss: "Russellville, 1171 Cambridge Court"
-        )
+    func loadAdminData(completion: (AdminModel) -> Void) {
+            let admin = AdminModel(
+                avatarName: "adminAvatar",
+                firstName: "Bob",
+                lastName: "Lester",
+                eMail: "bob.lester@gmail.com",
+                address: "Russellville, 1171 Cambridge Court"
+            )
+            completion(admin)
+        }
     }
-}
+

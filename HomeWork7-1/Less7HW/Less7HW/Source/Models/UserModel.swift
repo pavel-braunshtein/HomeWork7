@@ -7,11 +7,12 @@
 
 import Foundation
 
-struct UserModel {
+struct UserModel:profileData {
     
-    let userAvatarName: String
-    let userFirstName: String
-    let userLastName: String
-    let userEmail: String
-    let userAdderss: String
+    var avatarName: String
+    var firstName: String
+    var lastName: String
+    var eMail: String
+    var address: String
 }
+

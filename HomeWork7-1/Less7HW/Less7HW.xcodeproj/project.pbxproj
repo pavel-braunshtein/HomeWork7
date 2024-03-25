@@ -16,6 +16,7 @@
 		CEEEFE322BA077C100D443D1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEFE312BA077C100D443D1 /* UserModel.swift */; };
 		CEEEFE342BA077DA00D443D1 /* AdminModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEFE332BA077DA00D443D1 /* AdminModel.swift */; };
 		CEEEFE392BA0793500D443D1 /* DataProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEFE382BA0793500D443D1 /* DataProviderService.swift */; };
+		E92D6B412BAC983200623902 /* profileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D6B402BAC983200623902 /* profileData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CEEEFE312BA077C100D443D1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CEEEFE332BA077DA00D443D1 /* AdminModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminModel.swift; sourceTree = "<group>"; };
 		CEEEFE382BA0793500D443D1 /* DataProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderService.swift; sourceTree = "<group>"; };
+		E92D6B402BAC983200623902 /* profileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				CEEEFE312BA077C100D443D1 /* UserModel.swift */,
 				CEEEFE332BA077DA00D443D1 /* AdminModel.swift */,
+				E92D6B3F2BAC981600623902 /* Protocols */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +149,14 @@
 				CEEEFE382BA0793500D443D1 /* DataProviderService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E92D6B3F2BAC981600623902 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E92D6B402BAC983200623902 /* profileData.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 				CEEEFE142BA0673500D443D1 /* AppDelegate.swift in Sources */,
 				CEEEFE302BA06C4F00D443D1 /* ProfileViewController.swift in Sources */,
 				CEEEFE322BA077C100D443D1 /* UserModel.swift in Sources */,
+				E92D6B412BAC983200623902 /* profileData.swift in Sources */,
 				CEEEFE342BA077DA00D443D1 /* AdminModel.swift in Sources */,
 				CEEEFE162BA0673500D443D1 /* SceneDelegate.swift in Sources */,
 			);
